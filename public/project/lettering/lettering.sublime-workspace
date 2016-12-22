@@ -1,0 +1,361 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"small",
+				"small-up-2"
+			],
+			[
+				"des",
+				"description2"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/data/gallery.json",
+			"settings":
+			{
+				"buffer_size": 2340,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering"
+	],
+	"file_history":
+	[
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/assets/scss/app.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/assets/scss/partials/_base.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/assets/scss/partials/_nav.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/assets/scss/partials/_variables.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/data/gallery.json",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/pages/index.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/assets/scss/_settings.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/layouts/default.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/partials/navigation.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/partials/gallery-item.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/data/blog.json",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/pages/lettering.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/gulpfile.babel.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/data/gallery.yml",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/partials/blog-card.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/pages/advertisements.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/pages/XX_backup.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/layouts/blank.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/pages/XX_typography.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/node_modules/panini/helpers/proper.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/node_modules/panini/helpers/ifEqual.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/assets/js/app.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/XX_foundation/XX_old/templates/portfolio.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/src/assets/scss/app.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/data/breakfast.yml",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/XX_foundation/XX_old/templates/marketing-site.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/XX_foundation/XX_old/templates/agency.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/lettering/src/pages/typography.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/src/assets/js/app.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/gulpfile.babel.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/src/pages/index.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/src/assets/scss/_settings.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/src/pages/flex-grid.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/foundation/ecommerce.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/boutiqueofclarissa/header.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/madlib/index.html",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/designsavvy/typography.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/designsavvy/config/settings.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/designsavvy/admin.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/designsavvy/admin.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/boutiqueofclarissa/config/settings.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/templates/omgprojectinfo.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/config/settings.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/designsavvy/advertisements.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/designsavvy/header.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/boutiqueofclarissa/sql/boutiqueofclarissa.sql",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/designsavvy/index.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/designsavvy/index.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_typography.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_images.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/templates/grid.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_forms.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_grids-old.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/main.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_grids.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/index.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_config.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/templates/project-alternate.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/README.md",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/sass/partials/_grids-fix.scss.haml",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/templates/contact.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/nav.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/templates/project.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/gulpfile.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/headers/omgprojectinfo.header.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/index.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/partials/_grids.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/partials/_typography.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/partials/_reset.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/partials/_base.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/partials/_breakpoints.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/partials/_variables.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/sass/main.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/stylesheets/partials/_typography.scss",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/gulpfile.js",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/header.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/headers/omgitskristysportfoliopage.header.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/templates/omgitskristyscontactpage.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/templates/omgitskristysresume.template.php",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/project/legacy/stylesheets/main.scss",
+		"/Users/omgitskristy/Desktop/Notes",
+		"/Users/omgitskristy/Documents/dev/portfolio/public/header.php",
+		"/Users/omgitskristy/Documents/dev/legacy/public/config/settings.php",
+		"/Users/omgitskristy/Documents/dev/legacy/public/templates/omgitskristysaboutpage.template.php",
+		"/Users/omgitskristy/Documents/dev/legacy/public/headers/omgitskristysaboutpage.header.php",
+		"/Volumes/Hitachi/__What a Mess/_PC/sites/dev.omgitskristy.com/sql/omgitskristy.sql",
+		"/Volumes/Hitachi/__What a Mess/_PC/omgitskristy backup/public_html/sql/omgitskristy.sql",
+		"/Users/omgitskristy/Documents/dev/legacy/public/sql/omgitskristy.sql",
+		"/Users/omgitskristy/Documents/dev/legacy/Vagrantfile",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/Vagrantfile",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/sql/omgitskristy.sql",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/mixture.json",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/headers/omgitskristysresume.header.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/headers/omgitskristysportfoliopage.header.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/headers/omgitskristyscontactpage.header.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/headers/omgitskristysaboutpage.header.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/index.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/templates/additionalnavigation.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/templates/omgitskristysaboutpage.template.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/templates/omgitskristyscontactpage.template.php",
+		"/Users/omgitskristy/Documents/dev/legacy/my-project/public/templates/omgitskristysresume.template.php",
+		"/Volumes/Hitachi/__What a Mess/omgitskristy/omgitskristy.com/Versions/09.20.20011_Backup/omgitskristy.com/config/settings.php",
+		"/Users/omgitskristy/Documents/vagrant_getting_started/bootstrap.sh",
+		"/Users/omgitskristy/Documents/portfolio_site/bootstrap.sh",
+		"/Users/omgitskristy/Documents/portfolio_site/index.html",
+		"/Users/omgitskristy/Documents/portfolio_site/Vagrantfile",
+		"/Users/omgitskristy/Documents/dev/portfolio_site/Vagrantfile",
+		"/Users/omgitskristy/Documents/vagrant_getting_started/Vagrantfile",
+		"/Users/omgitskristy/Documents/portfolio_site/index.php",
+		"/Users/omgitskristy/Downloads/nucleo-social-icons/social-media-icons.ai",
+		"/Applications/Adobe Illustrator CC 2017/CEP/extensions/com.adobe.svgwriter/META-INF/signatures.xml",
+		"/Users/omgitskristy/Documents/dev/vagrant/Vagrantfile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"anchor",
+			".row",
+			"global-margin",
+			"title",
+			"flex",
+			"sql",
+			"grid",
+			"project-al",
+			".back",
+			".contact",
+			".additionalNavigation a",
+			".left",
+			"left",
+			"mysql",
+			"mysql_query",
+			"mysql_query(",
+			"bullet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/data/gallery.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1205,
+								1205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 397.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lettering.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

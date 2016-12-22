@@ -1,0 +1,12 @@
+.content {
+	margin: 20px auto;
+	width: 80%;
+
+	@include breakpoint(medium down) {
+		width: 95%;
+	}
+}
+
+a:hover {
+	text-decoration: underline;
+}

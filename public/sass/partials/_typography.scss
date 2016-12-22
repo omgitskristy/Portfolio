@@ -1,0 +1,99 @@
+// FONT FAMILIES
+
+$fallback: Helvetica, Arial, sans-serif;
+$heading-font-family: 'Abel', $fallback;
+$base-font-family: 'Roboto', $fallback;
+$base-font-size: 15px;
+$base-font-weight: 100;
+
+// FONT DECLARATIONS
+
+body {
+	color: $color-gray;
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+	font-weight: $base-font-weight;
+	line-height: 1.6;
+	text-align: center;
+}
+
+h1, .nav-item {
+	color: $color-black;
+	font-size: 125%;
+	font-family: $heading-font-family;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0 auto;
+	margin-bottom: $margin-default;
+	width: 95%;
+}
+
+.full {
+	p {
+		width: 100%;
+		
+		&:last-of-type {
+			margin-bottom: 0;
+		}		
+	}
+}
+
+.error {
+	color: $color-hot-pink;
+	margin: 0;
+	text-align: right;
+	position: relative;
+	width: 100%;
+}
+
+.success {
+	text-align: center;
+	width: 100%;
+}
+
+a {
+	border-bottom: 1px solid $color-gray;
+	color: $color-gray;
+	padding-bottom: 1px;
+	text-decoration: none;
+
+	&.no-underline {
+		border-bottom: 0;
+	}
+
+	&:hover {
+		border-bottom: 1px solid $color-hot-pink;
+		color: $color-hot-pink;
+	}
+}
+
+.center {
+	p {
+		margin-left: -37%;
+		width: 175%;
+	}
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+@media only screen and (min-width: 750px) {
+	p {
+		margin-bottom: $margin-default;
+	}
+
+	.center {
+		p {
+			margin: 0 auto;
+			margin-bottom: $margin-extended;
+			width: 95%;
+		}
+	}
+}

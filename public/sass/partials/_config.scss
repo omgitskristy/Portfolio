@@ -1,0 +1,35 @@
+// COLORS
+
+$color-black: #000000;
+$color-gray: #999999;
+$color-gray-medium: #cccccc;
+$color-gray-light: #eeeeee;
+$color-hot-pink: #ea355a;
+
+$accent-color: #ea355a;
+$base-color: #999999;
+$header-color: #000000;
+$input-color: #eeeeee;
+
+//  MARGINS
+
+$margin-default: 2%;
+$margin-extended: 4%;
+
+@media only screen and (min-width: 750px) {
+	$margin-default: 4%;
+	$margin-extended: 8%;
+}
+
+// LOGO
+
+$logo-max: 360px;
+
+// MIXINS
+
+@mixin rounded($radius: 5px) {
+	border: 0;
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius; 
+}

@@ -1,0 +1,56 @@
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        margin: 0 $margin-extended;
+    }
+
+    span {
+        display: block;
+        height: 0;
+        overflow: hidden;
+        width: 0;
+    }
+
+    a {
+        border: none;
+        color: $color-gray-medium;
+        display: inline-block;
+
+        &:before {
+            font: 1.5em/1.5 "FontAwesome";
+        }
+
+        $icons: (
+            github:   (char: "\f09b", color: $color-gray-medium),
+            instagram: (char: "\f16d", color: $color-gray-medium),
+            linkedin: (char: "\f08c", color: $color-gray-medium),
+        );
+
+        @each $social, $icon in $icons {
+            &[href*="#{$social}"] {
+                color: map-get($icon, color);
+
+                &:before {
+                    content: map-get($icon, char);
+                }
+
+                &:hover {
+                    color: $color-hot-pink;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .social-icons {
+
+        li {
+            margin: 0 ($margin-extended)*0.75;
+        }
+    }
+}

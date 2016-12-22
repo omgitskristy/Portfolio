@@ -1,0 +1,166 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Madlib</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+
+    <script language="javascript" type="text/javascript">
+
+        function toProperCase(s)
+        {
+          return s.toLowerCase().replace(/^(.)|\s(.)/g, 
+                  function($1) { return $1.toUpperCase(); });
+        }
+
+        function validateForm()
+        {
+            var theErrorDiv = document.getElementById('error');
+            var fields = ["bakedGood", "adjective", "nameFemale", "livingEstablishment", "day", "pluralNoun", "cookingDevice", "room", "adverbOne", "adverbTwo", "bodyPart", "verb", "furniture"];
+
+            var i, l = fields.length;
+            var fieldname;
+            for (i = 0; i < l; i++) {
+                fieldname = fields[i];
+                if (document.getElementById([fieldname]).value === "") {
+                  return false;
+                }
+            }
+
+            return true
+        }
+
+        function submitFunction(){
+
+            var bakedGood = document.getElementById('bakedGood').value;
+            var adjective = document.getElementById('adjective').value;
+            var nameFemale = document.getElementById('nameFemale').value;
+            var livingEstablishment = document.getElementById('livingEstablishment').value;
+            var day = document.getElementById('day').value;
+            var pluralNoun = document.getElementById('pluralNoun').value;
+            var cookingDevice = document.getElementById('cookingDevice').value;
+            var room = document.getElementById('room').value;
+            var adverbOne = document.getElementById('adverbOne').value;
+            var adverbTwo = document.getElementById('adverbTwo').value;
+            var bodyPart = document.getElementById('bodyPart').value;
+            var verb = document.getElementById('verb').value;
+            var furniture = document.getElementById('furniture').value;
+            var theDiv = document.getElementById('outPut');
+            var madlibTitle = document.getElementById('madlibTitle');
+
+            // letterVar = '<h2>' + toProperCase(nameFemale) + ' and Her ' + toProperCase(bakedGood) + '</h2>';
+            letterVar = '<p class="left">Once upon a time there was an old, ' + adjective + ' woman named ' + toProperCase(nameFemale) +' and her husband. They lived in a quaint ' + livingEstablishment + '  at the edge of the woods. Every ' + toProperCase(day) + ', she made a batch of ' + bakedGood + ' shaped like ' + pluralNoun +'.</p>';
+            letterVar += '<p class="left">As she did every ' + toProperCase(day) + ', she popped them into the ' + cookingDevice + ' and began to clean up. While making her way around the ' + room + ' she noticed something quite peculiar – it appeared as if one of the ' + bakedGood + ' had come to life.</p>';
+            letterVar += '<p class="left">It glanced toward her and ' + adverbOne + ' crept toward the front of the ' + cookingDevice + '. It placed it\'s tiny ' + bodyPart + ' on the glass and peered into what seemed to be a new world. ' + toProperCase(adverbTwo) + ', the woman ' + verb + ' to remove it from the heat.</p>';
+            letterVar += '<p class="left">Once freed, it hopped onto the ' + furniture + ' and sat down. The woman always longed for one of her own ' + pluralNoun + ' and knew this one had been given life to fill the void she had always had in her heart. As she opened her mouth to speak to it the ' + room + ' door swung open.</p>';
+            letterVar += '<p class="left">"Oh good! The ' + bakedGood + ' are done!" her husband exclaimed as he grabbed his wife\'s dream and consumed it right front of her.</p>';
+
+            if(validateForm()) {
+                theDiv.innerHTML = letterVar;
+                madlibTitle.innerHTML = toProperCase(nameFemale) + ' and Her ' + toProperCase(bakedGood);
+            } else {
+                theDiv.innerHTML = '<p>* All field are required. Please enter values for each field below.</p>';
+            }
+
+            return false;
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-12">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="col-12">
+                    <h1 id="madlibTitle">Madlib</h1>
+                    <div id="outPut">
+                        <p>Please fill out all fields to generate your Madlib.</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <form name="testForm">
+                        <input id="bakedGood" type="text" placeholder="Plural Baked Good" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="adjective" type="text" placeholder="Adjective" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="nameFemale" type="text" placeholder="Name of Female" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="livingEstablishment" type="text" placeholder="Living Establishment" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="day" type="text" placeholder="Day" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="pluralNoun" type="text" placeholder="Plural Noun" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="cookingDevice" type="text" placeholder="Cooking Device" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="room" type="text" placeholder="Room in House" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="adverbOne" type="text" placeholder="Adverb" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="adverbTwo" type="text" placeholder="Adverb" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="bodyPart" type="text" placeholder="Body Part" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="verb" type="text" placeholder="Past Tense Verb" class="form" />
+                </div>
+                <div class="col-12">
+                        <input id="furniture" type="text" placeholder="Furniture" class="form" />
+                </div>
+                <div class="col-12">
+                        <input type="submit" value="Generate Your MadLib" onclick="return submitFunction()" />
+                        <input type="hidden" name="submitted" />
+                    </form>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</body>
+            <!-- <div class="col-4 center">
+                <!-- <img src="/images/about/07.png" class="image-preview" /> -->
+                <!-- <h1>Madlib</h1>
+                <p>Fill out the form to your right to generate a MadLib.</p>
+            </div> -->
+            <!-- <div class="col-2"></div>
+            <div class="col-8">
+                <h1>Christmas Madlib</h1>
+                <div id="outPut" class="form left"></div>
+                <!-- <hr /> -->
+                <!-- <div class="col-12">
+                    <form name="testForm">
+                        <input id="Name" type="text" placeholder="Name" class="form" />
+                </div>
+                
+                <div class="col-12">
+                    <input id="numOne" type="text" placeholder="Number" class="form" />
+                </div> -->
+
+                <!-- <div class="col-12">
+                    <textarea id="outPut" wrap="physical" rows="15" cols="47" class="form"></textarea>
+                </div> -->
+
+                <!-- <div class="col-12">
+                    <input type="submit" id="button" name="submit" value="Generate Your Madlib" onClick="submitFunction()" class="form" />
+                    <input type="hidden" name="submitted" />
+                    </form>
+                </div>
+
+            </div>
+            <div class="col-2"></div>
+        </div> -->
+</html>

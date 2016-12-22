@@ -1,0 +1,207 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;                 
+}
+
+/* Layout Formatting */
+
+#container{
+	margin:0px auto;
+	width:750px;
+	min-width:750px;
+}
+
+#header{
+	padding-top:45px;
+	text-align:left;
+	overflow:hidden;
+}
+
+#title{
+	float:left;
+	margin-left:45px;
+}
+
+#nav{
+	float:right;
+	margin-right:45px;
+	margin-top:19px;
+}
+
+#footer{
+	text-align:left;
+	overflow:hidden;
+}
+
+#copy{
+	float:left;
+	margin-left:45px;
+}
+
+#social{
+	float:right;
+	margin-right:45px;
+	margin-bottom:35px;
+}
+
+#content{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:45px;
+	text-align:left;
+}
+
+.description{
+	margin-bottom:15px;
+    margin-top:-10px;
+	width:658px;
+}
+
+.topsubmission{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:658px;
+	overflow:hidden;
+}
+
+.subleft{
+	float:left;
+	width:370px;
+}
+
+.subright{
+	float:right;
+}
+
+.row{
+	width:680px;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+
+.col{
+	width:208px;
+	margin-right:15px;
+	float:left;
+}
+
+.marquee{
+    border:1px solid #000000;
+}
+
+#admin{
+	width:658px;
+	overflow:hidden;
+}
+
+#adminleft{
+	float:left;
+	width:350px;
+}
+
+#adminright{
+	float:right;
+}
+
+.navrule{
+	margin-top:48px;
+	margin-left:46px;
+}
+
+.footrule{
+	margin-bottom:5px;
+	margin-left:46px;
+}
+
+.noborder{
+    border:0px solid #000000;
+}
+
+a:hover .noborder{
+    border:0px solid #000000;    
+}
+
+/* 	border-bottom: 1px solid red; */
+
+/* Image Formatting */
+
+img{
+	border:1px solid #000000;
+}
+
+a img{
+	border:1px solid #000000;
+}
+
+a:hover img{
+    border:1px solid #458B00;
+}
+
+/* Font Formatting */
+
+h1{
+	font-size:36px;
+}
+
+h2{
+	font-size:14px;
+	margin-bottom:-15px;
+    margin-top:5px;
+}
+
+h3{
+	font-size:13px;
+	font-style:italic;
+	font-weight:normal;
+	margin-bottom:-15px;
+}
+
+.copytext{
+	font-size:13px;
+}
+
+a{
+	color:#458B00;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#000000;
+}
+
+#nav a{
+    color:#333333;
+    letter-spacing:1px;
+}
+
+#nav a:hover{
+    color:#458B00;
+    letter-spacing:1px;
+}
+
+a.home{
+	color:#000000;
+}
+
+a.home:hover{
+	color:#000000;
+}
+
+a.navlink{
+	color:#666666;
+	font-size:14px;
+}
+
+a.navlink:hover{
+	color:#000000;
+}
+
+.error{
+	color:red;
+}

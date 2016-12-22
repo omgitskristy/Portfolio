@@ -1,0 +1,26 @@
+---
+title: design savvy
+---
+
+<div class="row">
+  <div class="column text-center">
+    <h1>{{title}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="column text-center">
+    <p>A carefully curated collection of hand-lettering favorites.</p>
+  </div>
+</div>
+
+<div class="row small-up-2 medium-up-3 large-up-4">
+    {{#each gallery}}
+      <div class="column">
+        <a href="{{ this.link }}" target="_blank">
+          <img class="thumbnail" src="{{ this.image }}">
+        </a>
+        <p class="text-center">{{!-- {{ this.title }}<br />
+           --}}<em>Created by <a href="{{ this.link }}">{{ this.author }}</a></em></p>
+      </div>
+    {{/each}}
+</div>

@@ -1,0 +1,15 @@
+Before you start your final, you'll need to come up with a design for your website. Create it, and submit the image file here. You will be graded on the feasibility of coding the design. Keep in mind your HTML/CSS limitations in this design.
+
+This is due Wednesday, March 9th at 6pm. I'll grade them as soon as I can after you submit so you can get started.
+
+----------------------------------------------------------------------------------------------------------
+
+Your final will take you through the design and development of a small web page. The finished product will have three content pages, and an administrative area (1-2 pages). The subject and content of the website are up to you, but it needs to be something new. Not an improved version of pre-existing content as before.
+
+One of the three pages must have dynamic content controlled by an administrative area. You choose the content, but it has to be something that can grow and shrink on the site, and the design has to allow for it. For example, you may want to list movies, or books (if they fit the site's subject). There needs to be an administrative page where you can add and remove these items on the page.
+
+The other two content pages do not have to have dynamic content, but all pages do need to share the same template and navigation. (use PHP includes!)
+
+Your submission will include: A zip file with 1-2 admin pages. 3 front end pages. 1 Dataabse script to create the table I need to view your site properly. Other support files as needed.
+
+This is due Wednesday, March 16th at 6pm. Note this is due week 10, NOT 11. Turn it in in the drop box for the final in Week 10 Please name your zip file lastname_final.zip

@@ -1,0 +1,26 @@
+img {
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: $margin-extended;
+	width: 75%;
+}
+
+.image-logo, .image-logo-mobile {
+	max-width: $logo-max;
+	width: 75%;
+}
+
+.image-project {
+	border: 1px solid $color-gray-light;
+	margin-bottom: $margin-extended;
+	width: 99.5%;
+
+	&:first-of-type {
+		margin-top: 0;
+	}
+}
+
+.image-hero {
+	margin-bottom: 0;
+}
