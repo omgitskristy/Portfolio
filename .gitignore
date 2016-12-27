@@ -1,1 +1,9 @@
 node_modules
+/vagrant/
+gulpfile.js
+Vagrantfile
+/project/legacy/_docs
+/project/legacy/references
+/project/legacy/sql
+/project/legacy/temp
+/project/legacy/work
