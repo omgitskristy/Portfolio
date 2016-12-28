@@ -17,7 +17,11 @@
 			echo	'				<h1 class="h5">Created Using</h1>'."\n";
 			echo	'				<p>'.$projects['technology'].'</p>'."\n";
 			if(isset($projects['link']) || isset($projects['linkGithub'])){
-				echo 	'				<p><a href="'.$projects['link'].'" target="_blank">view project live</a>';
+				if($projects['id'] != 6){
+					echo 	'				<p><a href="'.$projects['link'].'" target="_blank">view project live</a>';
+				}else{
+					echo 	'				<p><a href="'.$projects['link'].'">view project live</a>';
+				}
 				if($projects['linkGithub'] != NULL){
 					echo 	'				<br /><a href="'.$projects['linkGithub'].'" target="_blank">view on github</a>'."\n";	
 				}
