@@ -10,6 +10,16 @@
 		while ($projects = $query->fetch_assoc()) {
 			echo	'		<div class="col-12">';
 			echo 	'			<img src="'.$projects['imageHero'].'" class="image-hero" />';
+			// echo 	'			<picture>';
+			// echo 	'			<img';
+			// echo 	'			    sizes="(max-width: 1024px) 100vw, 1024px"';
+			// echo 	'			    srcset="';
+			// echo 	'			    image-preview_udcmzq_c_scale,w_190.jpg 190w,';
+			// echo 	'			    image-preview_udcmzq_c_scale,w_961.jpg 961w,';
+			// echo 	'			    image-preview_udcmzq_c_scale,w_1024.jpg 1024w"';
+			// echo 	'			    src="image-preview_udcmzq_c_scale,w_1024.jpg"';
+			// echo 	'			    alt="">';
+			// echo 	'			</picture>';
 			echo	'		</div>';
 
 			echo	'		<div class="col-12">'."\n";

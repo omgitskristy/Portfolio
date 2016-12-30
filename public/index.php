@@ -17,7 +17,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- Favicons -->
-    <!-- <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="http://scotch.io/favicon.ico"> -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -35,13 +34,12 @@
     <!-- Styles -->
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|Roboto:100">
-    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
-    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald:400,300|Pathway+Gothic+One"> -->
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+    <!-- Scripts -->
+    <script>
+        document.createElement("picture");
+    </script>
+    <script src="js/picturefill.min.js" async></script>
 
 </head>
 <body>
@@ -65,82 +63,6 @@
     ?>
 
     </div> 
-
-    <!-- <div class="col-12"><p>12</p></div>
-
-    <div class="col-12">
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-2"><p>2</p></div>
-        <div class="col-2"><p>2</p></div>
-        <div class="col-2"><p>2</p></div>
-        <div class="col-2"><p>2</p></div>
-        <div class="col-2"><p>2</p></div>
-        <div class="col-2"><p>2</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-3"><p>3</p></div>
-        <div class="col-3"><p>3</p></div>
-        <div class="col-3"><p>3</p></div>
-        <div class="col-3"><p>3</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-4"><p>4</p></div>
-        <div class="col-4"><p>4</p></div>
-        <div class="col-4"><p>4</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-5"><p>5</p></div>
-        <div class="col-5"><p>5</p></div>
-        <div class="col-2"><p>2</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-6"><p>6</p></div>
-        <div class="col-6"><p>6</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-7"><p>7</p></div>
-        <div class="col-5"><p>5</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-4"><p>4</p></div>
-        <div class="col-8"><p>8</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-9"><p>9</p></div>
-        <div class="col-3"><p>3</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-10"><p>10</p></div>
-        <div class="col-1"><p>1</p></div>
-        <div class="col-1"><p>1</p></div>
-    </div>
-
-    <div class="col-12">
-        <div class="col-11"><p>11</p></div>
-        <div class="col-1"><p>1</p></div>
-    </div> -->
 
     <!-- Scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
