@@ -1,6 +1,16 @@
 <div class="col-12">
     <div class="col-4 center">
-        <img src="/images/about/07.png" class="image-preview" />
+        <!-- <img src="/images/about/07.png" class="image-preview" /> -->
+        <picture>
+        <img
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            srcset="
+            /images/about/07_200.jpg 190w,
+            /images/about/07_720.jpg 720w,
+            /images/about/07_1024.jpg 1024w"
+            src="/images/about/07_720.jpg"
+            alt="">
+        </picture>
         <h1>Social Media</h1>
         <ul class="social-icons">
           <li>
